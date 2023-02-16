@@ -1,0 +1,47 @@
+@font-face {
+    font-family: PublicSans-Regular;
+    src: url(fonts/PublicSans-Regular.ttf);
+}
+
+body {
+    font-family: PublicSans-Regular;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 5rem;
+    line-height: 5rem;
+    border: 0.0625rem gray dashed;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header a {
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: 0.125rem gray solid;
+    padding: 0.1rem;
+}
+
+.header .link {
+    font-size: 2rem;
+    margin-right: 0.15rem;
+}
+
+.header .brand {
+    font-size: 3rem;
+    margin-right: 0.5rem;
+}
+
+.content {
+    font-size: 1.5rem;
+    border: 0.0625rem gray dashed;
+}
+
+.content p {
+    padding: 0 1rem;
+}
